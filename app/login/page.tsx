@@ -125,7 +125,6 @@ const LoginPage = () => {
                             </div>
 
                             {error && <p className="text-red-500 mb-3">{error}</p>}
-
                             <Button
                                 label={loading ? 'Signing in...' : 'Sign In'}
                                 className="w-full p-3 text-xl"
